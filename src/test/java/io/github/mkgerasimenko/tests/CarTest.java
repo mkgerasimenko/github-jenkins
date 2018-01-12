@@ -14,6 +14,6 @@ public class CarTest {
     public void someCarMethodReturnsString() {
         final Car audi = new Car();
         final String color = audi.getCarColor();
-        assertEquals(color, "Red", "getCarColor Should return a origin color");
+        assertEquals(color, "Blue", "getCarColor Should return a origin color");
     }
 }
